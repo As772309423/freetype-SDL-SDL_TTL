@@ -1,10 +1,11 @@
-SDL_PATH = /home/wilburn/Desktop/font/test/SDL/include
-SDL_TTL_PATH = /home/wilburn/Desktop/font/test/SDL_TTL/include/SDL
-FT_PATH = /home/wilburn/Desktop/font/test/freetype/include
+ROOT_PATH = ~/Desktop
+SDL_PATH = $(ROOT_PATH)/font/test/SDL/include
+SDL_TTL_PATH = $(ROOT_PATH)/font/test/SDL_TTL/include/SDL
+FT_PATH = $(ROOT_PATH)/font/test/freetype/include
 
-SDL_LIB_PATH = /home/wilburn/Desktop/font/test/SDL/lib
-SDL_TLL_LIB_PATH = /home/wilburn/Desktop/font/test/SDL_TTL/lib
-FT_LIB_PATH = /home/wilburn/Desktop/font/test/freetype/lib
+SDL_LIB_PATH = $(ROOT_PATH)/font/test/SDL/lib
+SDL_TLL_LIB_PATH = $(ROOT_PATH)/font/test/SDL_TTL/lib
+FT_LIB_PATH = $(ROOT_PATH)/font/test/freetype/lib
 
 CCO = arm-hisiv500-linux-gcc
 
